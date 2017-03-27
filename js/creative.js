@@ -42,6 +42,15 @@
         }
     })
 
+    $(".collapse-btn").html('펼치기 <span class="glyphicon glyphicon-menu-down"></span>');
+
+    $("#demo").on("hide.bs.collapse", function(){
+      $(".collapse-btn").html('펼치기 <span class="glyphicon glyphicon-menu-down"></span>');
+    });
+    $("#demo").on("show.bs.collapse", function(){
+      $(".collapse-btn").html('올리기 <span class="glyphicon glyphicon-menu-up"></span>');
+    });
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
