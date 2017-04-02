@@ -5936,7 +5936,10 @@ button.close {
 }
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5948,11 +5951,12 @@ button.close {
 .modal-body {
   position: relative;
   padding: 15px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;
@@ -5973,7 +5977,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 750px;
     margin: 30px auto;
   }
   .modal-content {
